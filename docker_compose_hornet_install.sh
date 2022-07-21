@@ -10,6 +10,8 @@ sudo apt install docker-ce -y
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 cd /opt
+sudo mkdir hornet
+cd hornet
 curl -LO https://github.com/iotaledger/hornet/releases/download/v2.0.0-beta.1/HORNET-2.0.0-beta.1-docker.tar.gz
 tar -xf HORNET-2.0.0-beta.1-docker.tar.gz
 rm HORNET-2.0.0-beta.1-docker.tar.gz
