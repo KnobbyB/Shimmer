@@ -12,6 +12,6 @@ sudo chmod +x /usr/local/bin/docker-compose
 cd /opt
 sudo mkdir hornet
 cd hornet
-curl -LO https://github.com/iotaledger/hornet/releases/download/v2.0.0-beta.8/HORNET-2.0.0-beta.8-docker.tar.gz
-tar -xf HORNET-2.0.0-beta.8-docker.tar.gz
-rm HORNET-2.0.0-beta.8-docker.tar.gz
+curl -LO https://github.com/iotaledger/hornet/releases/download/v2.0.0-beta.9/HORNET-2.0.0-beta.9-docker.tar.gz
+tar -xf HORNET-2.0.0-beta.9-docker.tar.gz
+rm HORNET-2.0.0-beta.9-docker.tar.gz
